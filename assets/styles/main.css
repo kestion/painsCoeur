@@ -1,0 +1,143 @@
+/*CSS RESET*/
+
+	/* http://meyerweb.com/eric/tools/css/reset/ 
+	   v2.0 | 20110126
+	   License: none (public domain)
+	*/
+	
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	body {
+		line-height: 1;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+/*END OF CSS RESET*/
+
+/*CSS SETUP + CLASSES*/
+
+	body{background:#679fd2; font-family:Arial, serif; font-size:19px; font-weight:normal;}
+	a{text-decoration:none; color:inherit;}
+	
+	.left{float:left;}
+	.right{float:right;}
+	.clear{clear:both;}
+	
+	.caps{text-transform:uppercase}
+	.uncaps{text-transform:lowercase}
+	.smallcaps{text-transform:lowercase; font-variant:small-caps;}
+	
+	.black_c{color:#000 !important;}
+	.white_c{color:#fff !important;} 
+	.yellow_c{color:#ffb040 !important;} 
+	.orange_c{color:#ff7b40 !important;} 
+	.blue_c{color:#26537c !important;} 
+	.black_b{background:#000 !important;}
+	.white_b{background:#fff !important;} 
+	.yellow_b{background:#ffb040 !important;} 
+	.orange_b{background:#ff7b40 !important;} 
+	.blue_b{background:#26537c !important;} 
+	
+/*END OF SETUP*/
+
+/*HEADER*/
+
+	.current{width:50px !important;}
+
+	header{height:100px; border-bottom:1px solid #000;}
+	#title{padding-top:25px; float:left; width:500px;}
+	#title h1{margin:5px 25px 0px 150px; font-size:25px;}
+	
+	#min_header
+	{
+		height:50px; width:550px;
+		margin-left:65%;
+	}
+	
+	#min_header ul
+	{
+		height:50px; width:100%;
+		border:2px solid #000;
+		border-right:none;
+	}
+
+	#min_header li
+	{
+		float:left;
+		line-height:50px;
+		border-right:4px solid #000;
+		width:120px;
+	}
+
+	#min_header li img, header img, header h1{float:left; margin-top:5px;}
+/*END OF HEADER*/
+
+/*HOME*/
+	
+	.homes
+	{
+		float:left;	
+		margin-top:13%;
+	}
+	
+	#home{padding-left:12%; padding-top:5%;}
+	#home h1, img {float:left; margin-right:1%;}
+	#home h1{font-size:60px; line-height:13px;}
+	#home img{ padding-left:15px;}
+	#home p{margin-top:50px; font-size:23px; line-height:32.5px; width:60%;}
+/*END OF HOME*/
+
+/*FOOTER*/
+
+	footer{height:30px; border-top:1px solid #000;}
+	footer ul{height:30px;}
+	
+	footer li
+	{
+		font-size:16px;
+		display:inline;
+		border-left:1px solid #fff;
+		padding-left:15px;
+		margin-right:10px;
+		line-height:30px;
+	}
+	
+	footer li:first-child{border:none}
+/*END OF FOOTER*/
